@@ -16,16 +16,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Funances!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vT2-X9-Fgp">
-                                <rect key="frame" x="168" y="129" width="79" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome, [Name]!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vnj-Ss-GBK">
+                                <rect key="frame" x="57" y="78" width="300" height="46"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZO-9d-9Wy">
+                                <rect key="frame" x="89" y="176" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Practice your financial literacy here!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbQ-cj-NsP">
+                                <rect key="frame" x="71" y="220" width="272" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KEs-y7-u5A">
+                                <rect key="frame" x="142" y="176" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1V6-nh-kFX">
+                                <rect key="frame" x="157" y="181" width="89" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Daily Quiz"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Vnj-Ss-GBK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="309-4S-3Mv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1V6-nh-kFX" secondAttribute="trailing" symbolic="YES" id="3g2-Pk-O93"/>
+                            <constraint firstItem="EbQ-cj-NsP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="RtV-3o-dPu"/>
+                            <constraint firstItem="KEs-y7-u5A" firstAttribute="top" secondItem="sZO-9d-9Wy" secondAttribute="top" id="U3i-O2-9ZE"/>
+                            <constraint firstItem="sZO-9d-9Wy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="69" id="UFX-4V-uys"/>
+                            <constraint firstItem="EbQ-cj-NsP" firstAttribute="top" secondItem="1V6-nh-kFX" secondAttribute="bottom" constant="8" symbolic="YES" id="Vwp-Kh-3Cd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EbQ-cj-NsP" secondAttribute="trailing" constant="71" id="YEL-Xf-Wo2"/>
+                            <constraint firstItem="Vnj-Ss-GBK" firstAttribute="centerX" secondItem="EbQ-cj-NsP" secondAttribute="centerX" id="cPd-Ib-F5h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KEs-y7-u5A" secondAttribute="trailing" constant="272" id="e4F-mI-PiO"/>
+                            <constraint firstItem="KEs-y7-u5A" firstAttribute="top" secondItem="Vnj-Ss-GBK" secondAttribute="bottom" constant="52" id="gfA-cU-VMn"/>
+                            <constraint firstItem="KEs-y7-u5A" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="n2m-yz-kUA"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sZO-9d-9Wy" secondAttribute="trailing" constant="20" symbolic="YES" id="nk7-gi-NVD"/>
+                            <constraint firstItem="1V6-nh-kFX" firstAttribute="top" secondItem="Vnj-Ss-GBK" secondAttribute="bottom" constant="57" id="sYk-Lo-BNi"/>
+                            <constraint firstItem="Vnj-Ss-GBK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="tPf-Bk-xDA"/>
+                            <constraint firstItem="1V6-nh-kFX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="wZt-Vs-tps"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
