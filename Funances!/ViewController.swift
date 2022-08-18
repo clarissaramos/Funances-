@@ -18,8 +18,10 @@ struct Question {
 
 class ViewController: UIViewController {
 
-    @IBOutlet var AnswerButtons: [UIButton]!
-    @IBOutlet weak var QuestionLabel: UILabel!
+// HEX CODES: Dark Green = #367471 (Use for text or accent) , Apple Green = #B7E289, Main Green = #5EC57E
+    
+    
+    
     /*
     var Questions = [Question]() //array of questions
     
@@ -30,6 +32,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         /*
+         Daily
+         
         Questions = [Question(Question: "What is a ROTH IRA?", Answers: ["a","b","c","d"], Answer: 2)]
         //the answer to the question is Button #2, the third button on the list
         PickQuestion() //run function

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00476A4128AEC0A10034673D /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00476A4028AEC0A00034673D /* QuizViewController.swift */; };
 		CCF4DC9128AC965300847C6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF4DC9028AC965300847C6E /* AppDelegate.swift */; };
 		CCF4DC9328AC965300847C6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF4DC9228AC965300847C6E /* SceneDelegate.swift */; };
 		CCF4DC9528AC965300847C6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF4DC9428AC965300847C6E /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00476A4028AEC0A00034673D /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuizViewController.swift; path = "Funances!/QuizViewController.swift"; sourceTree = "<group>"; };
 		CCF4DC8D28AC965300847C6E /* Funances!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funances!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF4DC9028AC965300847C6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCF4DC9228AC965300847C6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		CCF4DC8428AC965300847C6E = {
 			isa = PBXGroup;
 			children = (
+				00476A4028AEC0A00034673D /* QuizViewController.swift */,
 				CCF4DC8F28AC965300847C6E /* Funances! */,
 				CCF4DC8E28AC965300847C6E /* Products */,
 			);
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCF4DC9B28AC965400847C6E /* Funances_.xcdatamodeld in Sources */,
+				00476A4128AEC0A10034673D /* QuizViewController.swift in Sources */,
 				CCF4DC9528AC965300847C6E /* ViewController.swift in Sources */,
 				CCF4DC9128AC965300847C6E /* AppDelegate.swift in Sources */,
 				CCF4DC9328AC965300847C6E /* SceneDelegate.swift in Sources */,
