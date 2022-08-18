@@ -43,6 +43,10 @@
                                     <segue destination="AJ2-Wl-dO0" kind="show" id="wTn-O6-bIn"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="daily q" translatesAutoresizingMaskIntoConstraints="NO" id="qSA-Qc-S7d">
+                                <rect key="frame" x="20" y="171" width="402" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="0.99215686274509807" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
@@ -57,6 +61,7 @@
                     <navigationItem key="navigationItem" id="GUT-bC-0Y0"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="DailyQuizButton" destination="qSA-Qc-S7d" id="guc-ia-c0t"/>
                         <outlet property="Welcome" destination="Vnj-Ss-GBK" id="Vjt-cu-1pN"/>
                     </connections>
                 </viewController>
@@ -197,4 +202,7 @@
             <point key="canvasLocation" x="306" y="-358"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="daily q" width="382" height="142"/>
+    </resources>
 </document>
