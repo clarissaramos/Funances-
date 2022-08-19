@@ -157,6 +157,21 @@
                                 <color key="textColor" red="0.36862745099999999" green="0.7725490196" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ql-rp-UeU">
+                                <rect key="frame" x="110" y="700" width="171" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36862745099999999" green="0.7725490196" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.76078431369999999" green="0.93333333330000001" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="23"/>
+                                    <color key="baseForegroundColor" red="1" green="0.94901960780000005" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.36862745099999999" green="0.7725490196" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="haU-ra-tWC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aSk-Le-v1v"/>
                         <color key="backgroundColor" red="1" green="0.99215686274509807" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -418,13 +433,6 @@ What are Roth IRAs?</string>
                                 <color key="textColor" red="0.21176470589999999" green="0.4549019608" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qbA-8e-OxB">
-                                <rect key="frame" x="12" y="300" width="367" height="91"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.36862745099999999" green="0.7725490196" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZN0-nK-aip">
                                 <rect key="frame" x="110" y="716" width="171" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -440,6 +448,10 @@ What are Roth IRAs?</string>
                                     <segue destination="MYJ-1Y-jfd" kind="show" id="H5T-85-mUO"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="investing" translatesAutoresizingMaskIntoConstraints="NO" id="GdS-FM-xwV">
+                                <rect key="frame" x="-139" y="159" width="668" height="637"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OEv-sj-xLT"/>
                         <color key="backgroundColor" red="1" green="0.99215686270000003" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -448,12 +460,12 @@ What are Roth IRAs?</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t0J-8B-gMK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2863" y="859"/>
+            <point key="canvasLocation" x="2861.5384615384614" y="858.76777251184831"/>
         </scene>
-        <!--View Controller-->
+        <!--Resource Banking View Controller-->
         <scene sceneID="ABG-mL-OiL">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="72f-Xl-vF8" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="72f-Xl-vF8" customClass="ResourceBankingViewController" customModule="Funances_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QZE-aB-9yo">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -500,6 +512,10 @@ What are Roth IRAs?</string>
                                     <segue destination="MYJ-1Y-jfd" kind="show" id="8DW-Yh-sCv"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="banking" translatesAutoresizingMaskIntoConstraints="NO" id="tYq-9w-jRx">
+                                <rect key="frame" x="13" y="-110" width="365" height="1204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rjM-G8-FAy"/>
                         <color key="backgroundColor" red="1" green="0.99215686270000003" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -524,6 +540,8 @@ What are Roth IRAs?</string>
                         <color key="selectedImageTintColor" red="0.15089480349141363" green="0.30305528241695956" blue="0.20941829131084713" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBar>
                     <connections>
+                        <segue destination="6xc-aH-gaW" kind="show" id="XA5-r6-QpB"/>
+                        <segue destination="AUI-HZ-xtc" kind="show" id="Xml-cV-Ah2"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="JHQ-Xp-M37"/>
                         <segue destination="MYJ-1Y-jfd" kind="relationship" relationship="viewControllers" id="aea-1N-SDu"/>
                         <segue destination="sLQ-tf-jgZ" kind="relationship" relationship="viewControllers" id="9k5-sD-4zz"/>
@@ -534,10 +552,10 @@ What are Roth IRAs?</string>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="57.589285714285708"/>
         </scene>
-        <!--View Controller-->
+        <!--Resource Loans View Controller-->
         <scene sceneID="ddO-KJ-7R3">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="AUI-HZ-xtc" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="AUI-HZ-xtc" customClass="ResourceLoansViewController" customModule="Funances_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="baX-Di-hAl">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -584,6 +602,10 @@ What are Roth IRAs?</string>
                                     <segue destination="MYJ-1Y-jfd" kind="show" id="c8v-Uj-AG8"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="loans" translatesAutoresizingMaskIntoConstraints="NO" id="tnj-dw-sus">
+                                <rect key="frame" x="13" y="-117" width="365" height="1204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gLu-M7-ihf"/>
                         <color key="backgroundColor" red="1" green="0.99215686270000003" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -592,20 +614,26 @@ What are Roth IRAs?</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ccJ-aA-tfk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3832" y="859"/>
+            <point key="canvasLocation" x="3830.7692307692305" y="858.76777251184831"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="H5T-85-mUO"/>
+        <segue reference="Xml-cV-Ah2"/>
+        <segue reference="G7l-ZY-24J"/>
+        <segue reference="8DW-Yh-sCv"/>
+        <segue reference="JHQ-Xp-M37"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Book-2" width="34" height="34"/>
         <image name="Home Page-3" width="29" height="28"/>
         <image name="Mask groupkarlie kloss" width="673" height="673"/>
         <image name="User" width="32" height="32"/>
+        <image name="banking" width="518" height="896"/>
         <image name="daily q" width="382" height="142"/>
         <image name="daily quizz" width="414" height="249"/>
         <image name="header for home page" width="414" height="203"/>
+        <image name="investing" width="518" height="896"/>
+        <image name="loans" width="518" height="896"/>
         <image name="my profile header" width="414" height="203"/>
         <image name="my progress header" width="414" height="203"/>
         <image name="pencil" catalog="system" width="128" height="113"/>

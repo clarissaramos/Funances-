@@ -9,9 +9,11 @@ import UIKit
 
 class ResourceInvestingViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBOutlet weak var contentTextView: UITextView!
 
+
+    
+    
         // Do any additional setup after loading the view.
     }
     
@@ -26,4 +28,4 @@ class ResourceInvestingViewController: UIViewController {
     }
     */
 
-}
+
