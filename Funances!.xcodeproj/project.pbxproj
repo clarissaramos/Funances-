@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		00476A4128AEC0A10034673D /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00476A4028AEC0A00034673D /* QuizViewController.swift */; };
+		0057268B28AFD88F005A9839 /* ResourceInvestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0057268A28AFD88F005A9839 /* ResourceInvestingViewController.swift */; };
+		0057268D28AFDC90005A9839 /* ResourceBankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0057268C28AFDC90005A9839 /* ResourceBankingViewController.swift */; };
+		0057268F28AFDC9F005A9839 /* ResourceLoansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0057268E28AFDC9F005A9839 /* ResourceLoansViewController.swift */; };
 		0471576128AEE7DF0033616E /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471576028AEE7DF0033616E /* GuideViewController.swift */; };
 		CCF4DC9128AC965300847C6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF4DC9028AC965300847C6E /* AppDelegate.swift */; };
 		CCF4DC9328AC965300847C6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF4DC9228AC965300847C6E /* SceneDelegate.swift */; };
@@ -20,6 +23,9 @@
 
 /* Begin PBXFileReference section */
 		00476A4028AEC0A00034673D /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		0057268A28AFD88F005A9839 /* ResourceInvestingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceInvestingViewController.swift; sourceTree = "<group>"; };
+		0057268C28AFDC90005A9839 /* ResourceBankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceBankingViewController.swift; sourceTree = "<group>"; };
+		0057268E28AFDC9F005A9839 /* ResourceLoansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceLoansViewController.swift; sourceTree = "<group>"; };
 		0471576028AEE7DF0033616E /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
 		CCF4DC8D28AC965300847C6E /* Funances!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funances!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF4DC9028AC965300847C6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +52,6 @@
 		CCF4DC8428AC965300847C6E = {
 			isa = PBXGroup;
 			children = (
-				0471576028AEE7DF0033616E /* GuideViewController.swift */,
 				CCF4DC8F28AC965300847C6E /* Funances! */,
 				CCF4DC8E28AC965300847C6E /* Products */,
 			);
@@ -63,11 +68,15 @@
 		CCF4DC8F28AC965300847C6E /* Funances! */ = {
 			isa = PBXGroup;
 			children = (
+				0471576028AEE7DF0033616E /* GuideViewController.swift */,
 				00476A4028AEC0A00034673D /* QuizViewController.swift */,
 				CCF4DC9028AC965300847C6E /* AppDelegate.swift */,
 				CCF4DC9228AC965300847C6E /* SceneDelegate.swift */,
 				CCF4DC9428AC965300847C6E /* ViewController.swift */,
 				CCF4DC9628AC965300847C6E /* Main.storyboard */,
+				0057268A28AFD88F005A9839 /* ResourceInvestingViewController.swift */,
+				0057268C28AFDC90005A9839 /* ResourceBankingViewController.swift */,
+				0057268E28AFDC9F005A9839 /* ResourceLoansViewController.swift */,
 				CCF4DC9C28AC965600847C6E /* Assets.xcassets */,
 				CCF4DC9E28AC965600847C6E /* LaunchScreen.storyboard */,
 				CCF4DCA128AC965600847C6E /* Info.plist */,
@@ -151,8 +160,11 @@
 				00476A4128AEC0A10034673D /* QuizViewController.swift in Sources */,
 				CCF4DC9528AC965300847C6E /* ViewController.swift in Sources */,
 				CCF4DC9128AC965300847C6E /* AppDelegate.swift in Sources */,
+				0057268F28AFDC9F005A9839 /* ResourceLoansViewController.swift in Sources */,
+				0057268B28AFD88F005A9839 /* ResourceInvestingViewController.swift in Sources */,
 				CCF4DC9328AC965300847C6E /* SceneDelegate.swift in Sources */,
 				0471576128AEE7DF0033616E /* GuideViewController.swift in Sources */,
+				0057268D28AFDC90005A9839 /* ResourceBankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
